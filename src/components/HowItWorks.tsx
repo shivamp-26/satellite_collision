@@ -11,7 +11,7 @@ const steps = [
   {
     icon: Brain,
     title: "Model Training",
-    description: "Train the LSTM Autoencoder on sequences of normal orbital elements until it can accurately reconstruct them.",
+    description: "Train the model using ensemble technique on sequences of normal orbital elements until it can accurately reconstruct them.",
     step: "02",
   },
   {
@@ -22,8 +22,8 @@ const steps = [
   },
   {
     icon: AlertTriangle,
-    title: "Anomaly Detection",
-    description: "When reconstruction error spikes above threshold, flag it as a potential maneuver or system anomaly.",
+    title: "Anomaly Prediction",
+    description: "When reconstruction error spikes above threshold, flag it as potential maneuver or system anomaly.",
     step: "04",
   },
 ];

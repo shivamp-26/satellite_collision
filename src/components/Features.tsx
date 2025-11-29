@@ -11,12 +11,12 @@ const features = [
   {
     icon: Zap,
     title: "Real-time Processing",
-    description: "High-frequency TLE data processing with instant anomaly detection and low-latency alerts.",
+    description: "High-frequency TLE data processing with instant anomaly prediction and low-latency alerts.",
     color: "text-warning",
   },
   {
     icon: Shield,
-    title: "Anomaly Detection",
+    title: "Anomaly Prediction",
     description: "Automatically flag unannounced maneuvers, tumbling, and system failures with high precision.",
     color: "text-success",
   },
@@ -29,7 +29,7 @@ const features = [
   {
     icon: TrendingUp,
     title: "Reconstruction Analysis",
-    description: "Monitor reconstruction error spikes to detect deviations from normal orbital patterns.",
+    description: "Monitor reconstruction error spikes to detect and predict deviations from normal orbital patterns.",
     color: "text-secondary",
   },
   {
